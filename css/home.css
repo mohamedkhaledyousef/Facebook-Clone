@@ -1,0 +1,370 @@
+body
+{
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.34;
+  background-color: #E9EBEE;
+
+}
+
+a 
+{
+  text-decoration: none;
+  color: #FFF;
+}
+
+i 
+{
+  cursor: pointer;
+}
+
+.container 
+{
+    width: 1180px;
+    margin: auto;
+}
+
+.clear 
+{
+  clear: both;
+}
+
+.black-md-icon 
+{
+  color: #000;
+  font-size: 26px;
+}
+
+.md-icon 
+{
+  font-size: 20px;
+}
+
+.navbar 
+{
+  background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #FFF;
+  overflow: hidden;
+  padding: 7px 0;
+}
+
+#barnd 
+{
+  float: left;
+}
+#barnd i 
+{
+  font-size: 29px;
+}
+
+#search 
+{
+  display: inline-block;
+  margin-left: 6px;
+}
+
+#search input 
+{
+  height: 23px;
+  color: #1d2129;
+  line-height: 18px;
+  padding: 8px;
+  padding-top: 6px;
+  padding-bottom: 1px;
+  border-radius: 3px;
+  border: 1px solid #3b5998;
+  font-size: 14px;
+  padding-right: 58px;
+  width: 385px;
+}
+
+#search button 
+{
+  border-radius: 3px;
+  border: 0;
+  background-color: #f6f7f9;
+  padding: 0 16px;
+  font-weight:bold;
+  color: #4b4f56;
+  height: 18px;
+  position: relative;
+  margin-left: -36px;
+  margin-top: 5px;
+}
+
+#notifi 
+{
+  float: right;
+  overflow: hidden;
+}
+#notifi img 
+{
+  margin-top: -5px;
+}
+
+#username  
+{
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+}
+#home 
+{
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+#notifi-group 
+{
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+#notifi-group span 
+{
+  margin-right: 10px;
+}
+
+#setting-group 
+{
+  display: inline;
+  vertical-align: middle;
+}
+
+
+#setting-group span 
+{
+  margin-left: 10px;
+}
+
+.section 
+{
+  margin-top: 15px;
+}
+
+.left-section 
+{
+  float: left;
+  width: 15%;
+  overflow: hidden;
+}
+
+.middle-section 
+{
+  float: left;
+  width: 45%;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.right-section 
+{
+  width: 31%;
+  overflow: hidden;
+}
+
+.left-section ul 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.left-section ul li 
+{
+  list-style: none;
+}
+
+.left-section .name 
+{
+  margin-left: 5px;
+  line-height: 28px;
+  font-size: 13px;
+}
+.left-section p 
+{
+  font-weight: bold;
+  color: #808389;
+}
+
+#user-name-list 
+{
+  margin-bottom: 15px;
+}
+
+#create-post 
+{
+  border-radius: 3px;
+  background-color: #FFF;
+}
+
+#create-post .create-header 
+{
+  background-color: #f6f7f9;
+  border: 1px solid #dddfe2;
+  border-radius: 2px 2px 0 0;
+  padding: 10px;
+}
+
+#create-post .create-header .post-type 
+{
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 15px;
+  color: #4b4f56;
+}
+
+#create-post .create-header .post-type i 
+{
+  padding-right: 5px;
+}
+
+#create-post .create-content 
+{
+  padding: 15px;
+}
+
+#create-post .create-content .post-content 
+{
+  display: inline;
+  padding-right: 48px;
+  padding-top: 23px;
+  padding-left: 12px;
+  padding-bottom: 13px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #DDE0DA;
+}
+
+#create-post .hr 
+{
+  border-bottom: 1px solid #DDE0DA;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 7px;
+}
+
+#create-post .create-footer 
+{
+  padding: 15px;
+}
+
+#create-post .create-footer button 
+{
+  margin-right: 6px;
+  border-radius: 20px;
+  border: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #e9ebee;
+  color: #4b4f56;
+}
+
+#create-post .create-footer button i 
+{
+  font-size: 18px;
+}
+
+.middle-section .post 
+{
+  margin-top: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.middle-section .post .post-info .friend-image 
+{
+  width: 40px;
+  height: 40px;
+  vertical-align:top;
+  margin-right: 5px;
+}
+
+.middle-section .post .post-info .friend-name 
+{
+  color: #365899;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.middle-section .post .post-info .friend-action 
+{
+  color: #90949c;
+  font-size: 13px;
+}
+
+.middle-section .post .post-info .time 
+{
+  color: #90949c;
+}
+
+.middle-section .post .post-main 
+{
+  margin-top: 10px;
+}
+
+.middle-section .post .post-main .post-text 
+{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.middle-section .post .post-main .post-image img 
+{
+  width: 100%;
+}
+
+.middle-section .post .post-reactions 
+{
+  border-top: 1px solid #e1e2e3;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #4b4f56;
+}
+
+.middle-section .post .post-reactions .action-type 
+{
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+.middle-section .post .post-comments 
+{
+  background-color: #f6f7f9;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 15px;
+}
+
+.middle-section .post .post-comments .comments .post-comment 
+{
+  padding-top: 10px;
+}
+
+.middle-section .post .post-comments .comments .post-comment .comment-friend-image img 
+{
+  width: 32px;
+  height: 32px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.middle-section .post .post-comments .comments .post-comment .friend-name 
+{
+  font-weight: bold;
+  color: #365899;
+
+}
